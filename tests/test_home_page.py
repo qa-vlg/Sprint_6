@@ -6,8 +6,7 @@ class TestHomePage:
 
     @allure.title('Переход на домашнюю страницу Самоката')
     @allure.description('Проверяем что пользователь переходит на страницу Самоката при нажатии на логотипю')
-    def test_user_returns_to_home_page_true(self, driver):
-        driver.get(Urls.ORDER_URL)
+    def test_user_returns_to_home_page_true(self, driver, go_to_order_page):
         home_page = HomePage(driver)
         actual_url = home_page.go_to_home_page()
         assert Urls.BASE_URL == actual_url

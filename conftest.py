@@ -10,3 +10,7 @@ def driver():
     driver.set_window_size(1440, 1100)
     yield driver
     driver.quit()
+
+@pytest.fixture
+def go_to_order_page(driver):
+    driver.get(Urls.ORDER_URL)
