@@ -1,4 +1,4 @@
-## Проект Авто-тестов [Сервиса pfзаказа Самоката](https://qa-scooter.praktikum-services.ru/ "Самокат")
+## Проект Авто-тестов [Сервиса заказа Самоката](https://qa-scooter.praktikum-services.ru/ "Самокат")
 ### Реализованные тесты:
 1. Навигация пользователя:
   * test_user_returns_to_home_page_true
